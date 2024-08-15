@@ -9,7 +9,7 @@
   --background-secondary-color: 203, 132, 97; /* #CB8461 */
   --background-muted-color: 255, 255, 255; /* #F8F8F8 */
   --text-primary-color: 255, 255, 255; /* #245D51 */
-  --text-secondary-color: 44, 44, 44; /* #CB8461 */
+  --text-secondary-color: 203, 132, 97; /* #CB8461 */
   --text-muted-color: 128, 128, 128; /* #808080 */
-  --text-current-color: 203, 132, 97; /* #2C2C2C */
+  --text-current-color: 44, 44, 44; /* #2C2C2C */
 }
