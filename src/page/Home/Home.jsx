@@ -3,6 +3,7 @@ import Discount from '../../components/Discount';
 import HeroSection from '../../components/Hero';
 import Join from '../../components/Join';
 import MediaSection from '../../components/Media';
+import Price from '../../components/Price';
 import Profile from '../../components/Profile';
 
 export default function Home() {
@@ -12,8 +13,9 @@ export default function Home() {
       <MediaSection />
       <Discount />
       <Profile />
-      <AboutSection />
-      <Join />
+      {/* <AboutSection /> */}
+      {/* <Join /> */}
+      {/* <Price /> */}
     </div>
   );
 }

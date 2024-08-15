@@ -3,7 +3,7 @@ import {
   DisclosureButton,
   DisclosurePanel,
 } from '@headlessui/react';
-import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline';
+import { XMarkIcon } from '@heroicons/react/24/outline';
 import Logo from '../assets/logo.png';
 import Vector from '../assets/Vector.svg';
 
@@ -69,7 +69,7 @@ export default function Navbar() {
                 <button className="text-white text-sm hover:text-gray-300">
                   Login
                 </button>
-                <button className="py-1.5 px-8 rounded-md font-medium text-white text-sm hover:bg-orange-400/70 bg-secondary ease-in-out duration-200">
+                <button className="py-2.5 px-8 rounded-md font-medium text-white text-sm hover:bg-orange-400/70 bg-secondary ease-in-out duration-200">
                   Register
                 </button>
               </div>

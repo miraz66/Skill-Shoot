@@ -1,7 +1,10 @@
+import Intersect from '../assets/Intersect.png';
+import Group_575 from '../assets/Group 575.png';
+
 export default function Join() {
   return (
     <>
-      <div className="max-w-7xl bg-extra p-14 mx-auto mb-20 rounded-xl">
+      <div className="max-w-7xl bg-extra p-16 mx-auto mb-20 rounded-xl relative">
         <div className="grid grid-cols-1 lg:grid-cols-2">
           <div className="max-w-2xl">
             <h1 className="text-4xl font-semibold tracking-tight leading-[50px]">
@@ -18,6 +21,19 @@ export default function Join() {
                 Subscribe Course
               </button>
             </div>
+          </div>
+
+          <div>
+            <img
+              className="absolute top-0 left-0"
+              src={Intersect}
+              alt="intersect"
+            />
+            <img
+              className="absolute -bottom-5 right-[35rem]"
+              src={Group_575}
+              alt="group-577"
+            />
           </div>
         </div>
       </div>
