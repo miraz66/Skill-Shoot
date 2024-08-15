@@ -8,9 +8,9 @@ export default function MediaSection() {
   return (
     <div className="mx-auto my-24 max-w-5xl px-4 sm:px-6 lg:px-8">
       <div className="text-center">
-        <h1 className="text-xl text-current_color sm:text-4xl font-semibold tracking-tight">
-          Trusted more than <span className="text-secondary_color">100+</span>{' '}
-          in the world
+        <h1 className="text-xl text-current sm:text-4xl font-semibold tracking-tight">
+          Trusted more than <span className="text-secondary">100+</span> in the
+          world
         </h1>
         <p className="pt-4 text-muted_color text-sm sm:text-base">
           they have asked us more than 3 times to teach their employees about{' '}
