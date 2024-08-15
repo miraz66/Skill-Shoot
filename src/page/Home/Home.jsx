@@ -1,6 +1,9 @@
+import AboutSection from '../../components/About';
 import Discount from '../../components/Discount';
-import HeroSection from '../../components/HeroSection';
-import MediaSection from '../../components/MediaSection';
+import HeroSection from '../../components/Hero';
+import Join from '../../components/Join';
+import MediaSection from '../../components/Media';
+import Profile from '../../components/Profile';
 
 export default function Home() {
   return (
@@ -8,6 +11,9 @@ export default function Home() {
       <HeroSection />
       <MediaSection />
       <Discount />
+      <Profile />
+      <AboutSection />
+      <Join />
     </div>
   );
 }

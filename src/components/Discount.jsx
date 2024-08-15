@@ -8,7 +8,7 @@ import Group_4 from '../assets/Group 577.png';
 
 export default function Discount() {
   return (
-    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 lg:mt-40 mb-20">
+    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 lg:mt-48 mb-20">
       <div className="grid grid-cols-1 lg:grid-cols-2 bg-extra rounded-lg relative">
         <div className="p-14 pt-20">
           <h1 className="lg:max-w-xl text-lg md:text-4xl text-center lg:text-left font-semibold tracking-tight">

@@ -9,18 +9,18 @@ import Group_24 from '../assets/Group 24.svg';
 import Group_25 from '../assets/Group 25.svg';
 import unsplash_WNoLnJo from '../assets/unsplash_WNoLnJo7tS8.png';
 
-export default function HeroSection() {
+export default function Hero() {
   return (
     <div className="bg-primary">
       <Navbar />
       <div className="mx-auto py-10 sm:py-14 max-w-7xl px-4 sm:px-6 lg:px-8 grid grid-cols-1 lg:grid-cols-2 gap-20">
-        <div className="text-center">
+        <div className="text-center sm:text-left">
           <h1 className="text-3xl sm:text-6xl text-white font-medium traking-tight leading-[50px] sm:leading-[90px]">
             There is{' '}
             <span className="relative">
               always{' '}
               <img
-                className="absolute top-10 left-0"
+                className="absolute top-10 sm:top-20 left-0"
                 src={Vector_1}
                 alt="vector"
               />
@@ -47,21 +47,23 @@ export default function HeroSection() {
         <div className="hidden lg:block">
           <div className="flex justify-end relative pr-14">
             <img src={HeroImage} alt="hero-image" />
-            <img
-              className="absolute top-14 left-28"
-              src={Group_25}
-              alt="group-image"
-            />
-            <img
-              className="absolute top-40 right-24"
-              src={Group_15}
-              alt="group-image"
-            />
-            <img
-              className="absolute right-16 bottom-10"
-              src={Group_24}
-              alt="group-image"
-            />
+            <div>
+              <img
+                className="absolute top-14 left-28"
+                src={Group_25}
+                alt="group-image"
+              />
+              <img
+                className="absolute top-40 right-24"
+                src={Group_15}
+                alt="group-image"
+              />
+              <img
+                className="absolute right-16 bottom-10"
+                src={Group_24}
+                alt="group-image"
+              />
+            </div>
             <div className="absolute top-60 left-0 flex bg-white/80 p-4 gap-4 rounded-xl">
               <img
                 className="w-10 h-10"
