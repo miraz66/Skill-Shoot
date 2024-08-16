@@ -11,9 +11,9 @@ import unsplash_WNoLnJo from '../assets/unsplash_WNoLnJo7tS8.png';
 
 export default function About() {
   return (
-    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-20">
+    <div className="max-w-7xl mx-auto px-8 lg:px-10 my-20">
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-20">
-        <div className="relative bg-[url('./assets/Rectangle.svg')] bg-no-repeat bg-bottom	">
+        <div className="relative bg-[url('./assets/Rectangle.svg')] bg-no-repeat bg-bottom hidden sm:block">
           <img className="mx-auto" src={pexels_max_fischer} alt="man image" />
           <div>
             <img
@@ -34,12 +34,12 @@ export default function About() {
           </div>
           <div className="absolute bottom-10 right-24 flex bg-white/80 px-6 py-4 gap-4 rounded-xl">
             <img
-              className="w-10 h-10"
+              className="sm:w-10 sm:h-10"
               src={unsplash_WNoLnJo}
               alt="unsplash_WNoLnJo"
             />
-            <div className="">
-              <div className="">
+            <div>
+              <div>
                 <h1 className="text-xs font-semibold">How to build a team</h1>
                 <p className="text-xs text-gray-600">Today at 12 PM</p>
               </div>
@@ -52,60 +52,66 @@ export default function About() {
         </div>
 
         <div className="flex flex-col justify-center">
-          <div className="">
-            <h1 className="relative max-w-xs text-4xl text-current font-bold">
+          <div>
+            <h1 className="relative max-w-xs text-xl sm:text-4xl text-current font-bold">
               Let us <span className="text-primary">Skill Shoot</span>
               <img
-                className="absolute right-4 top-9 w-48"
+                className="absolute left-16 sm:right-4 sm:top-9 w-28 sm:w-48"
                 src={Vector_1}
                 alt="vector"
               />
             </h1>
-            <p className="pt-10 text-muted max-md:text-sm font-normal leading-8">
+            <p className="pt-10 text-muted text-xs sm:text-base font-normal leading-7 sm:leading-9">
               We are a company engaged in education with the aim of improving
               the skills of many people and so that younger people can reach the
               career paths they want.
             </p>
-            <p className="pt-4 text-muted max-md:text-sm font-normal leading-8">
+            <p className="pt-4 text-muted text-xs sm:text-base font-normal leading-7 sm:leading-9">
               we have been around since 2019 with currently 100+ updated
               materials and 15K members who have joined.
             </p>
           </div>
 
-          <div className="pt-14 grid grid-cols-2 grid-rows-2 gap-6">
+          <div className="pt-10 sm:pt-14 grid grid-cols-2 grid-rows-2 gap-6">
             <div className="flex items-center gap-4">
               <img
-                className="p-2 rounded-full bg-extra w-10 h-10"
+                className="p-2 rounded-full bg-extra w-8 h-8 sm:w-10 sm:h-10"
                 src={user_icon}
                 alt="user icon"
               />
-              <p className="font-semibold text-current tracking-tight">
+              <p className="text-xs sm:text-base text-current font-semibold tracking-tight">
                 15K People Join
               </p>
             </div>
             <div className="flex items-center gap-4">
               <img
-                className="p-2 rounded-full bg-extra w-10 h-10"
+                className="p-2 rounded-full bg-extra w-8 h-8 sm:w-10 sm:h-10"
                 src={user_check_icon}
                 alt="user check icon"
               />
-              <p className="font-semibold text-current">Trusted Mentor</p>
+              <p className="text-xs sm:text-base text-current font-semibold">
+                Trusted Mentor
+              </p>
             </div>
             <div className="flex items-center gap-4">
               <img
-                className="p-2 rounded-full bg-extra w-10 h-10"
+                className="p-2 rounded-full bg-extra w-8 h-8 sm:w-10 sm:h-10"
                 src={video_recording_icon}
                 alt="video recording icon"
               />
-              <p className="font-semibold text-current">30+ Free Videos</p>
+              <p className="text-xs sm:text-base text-current font-semibold">
+                30+ Free Videos
+              </p>
             </div>
             <div className="flex items-center gap-4">
               <img
-                className="p-2 rounded-full bg-extra w-10 h-10"
+                className="p-2 rounded-full bg-extra w-8 h-8 sm:w-10 sm:h-10"
                 src={play_circle_icon}
                 alt="play circle icon"
               />
-              <p className="font-semibold text-current">100+ Premium Videos</p>
+              <p className="text-xs sm:text-base text-current font-semibold">
+                100+ Premium Videos
+              </p>
             </div>
           </div>
         </div>

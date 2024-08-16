@@ -1,20 +1,20 @@
-import AboutSection from '../../components/About';
+import About from '../../components/About';
 import Discount from '../../components/Discount';
-import HeroSection from '../../components/Hero';
+import Hero from '../../components/Hero';
 import Join from '../../components/Join';
-import MediaSection from '../../components/Media';
+import Media from '../../components/Media';
 import Price from '../../components/Price';
 import Profile from '../../components/Profile';
 
 export default function Home() {
   return (
     <div className="bg-white">
-      <HeroSection />
-      <MediaSection />
+      <Hero />
+      <Media />
       <Discount />
       <Profile />
-      {/* <AboutSection /> */}
-      {/* <Join /> */}
+      <About />
+      <Join />
       {/* <Price /> */}
     </div>
   );
