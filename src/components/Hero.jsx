@@ -27,7 +27,7 @@ export default function Hero() {
             </span>
             something new for us to learn
           </h1>
-          <p className="pt-6 text-gray-300 text-sm sm:text-lg font-light">
+          <p className="pt-6 text-gray-300 text-sm leading-7 sm:text-lg sm:leading-9">
             we have created more than 100+ materials on various things that will
             help your career, with mentors who are experienced in their fields.
           </p>

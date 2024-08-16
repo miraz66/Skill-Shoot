@@ -12,9 +12,8 @@ export default function Media() {
           Trusted more than <span className="text-secondary">100+</span> in the
           world
         </h1>
-        <p className="pt-4 text-muted_color text-sm sm:text-base">
+        <p className="max-w-72 sm:max-w-lg mx-auto pt-6 text-muted_color text-xs leading-7 sm:text-base sm:leading-9">
           they have asked us more than 3 times to teach their employees about{' '}
-          <br />
           various things. to improve their skills
         </p>
       </div>

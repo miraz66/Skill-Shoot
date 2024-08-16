@@ -15,7 +15,7 @@ export default function Home() {
       <Profile />
       <About />
       <Join />
-      {/* <Price /> */}
+      <Price />
     </div>
   );
 }

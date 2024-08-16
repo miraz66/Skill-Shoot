@@ -11,18 +11,18 @@ const features = [
 export default function Price() {
   return (
     <>
-      <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 mb-20 pt-10">
-        <div className="max-w-xl mx-auto px-5 text-center">
-          <h3 className="text-4xl font-semibold tracking-tight">
+      <div className="max-w-4xl mx-auto px-14 lg:px-10 mb-20 pt-10">
+        <div className="max-w-xl mx-auto sm:px-5 text-center">
+          <h3 className="text-lg sm:text-4xl font-semibold tracking-tight">
             <span className="text-secondary">Subscribe</span> with us now
           </h3>
-          <p className="mt-5 text-muted leading-8">
+          <p className="mt-5 text-muted text-xs leading-7 sm:text-base sm:leading-9">
             by subscribing now you will be able to access the material easily
             and cheaply, so you will be very efficient and benefit
           </p>
         </div>
         <div className="mt-40 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
-          <div className="pr-6">
+          <div className="px-8 sm:px-0 sm:pr-6">
             <h5 className="text-4xl font-bold">
               $50{' '}
               <span className="text-sm text-muted font-medium">/ 1 month</span>
@@ -50,7 +50,7 @@ export default function Price() {
             </button>
           </div>
 
-          <div className="relative bg-primary p-6 pt-20 -mt-24 rounded-2xl shadow-xl shadow-green-700/50 ">
+          <div className="relative order-first bg-primary p-6 pt-20 -mt-24 rounded-2xl shadow-xl shadow-green-700/50 ">
             <p className="absolute bg-secondary px-4 py-1 top-5 right-5 text-white text-xs uppercase rounded-full">
               Most Popular
             </p>
@@ -83,7 +83,7 @@ export default function Price() {
             </button>
           </div>
 
-          <div className="pr-6">
+          <div className="px-8 sm:px-0 sm:pr-6">
             <h5 className="text-4xl font-bold">
               $200{' '}
               <span className="text-sm text-muted font-medium">/ 1 month</span>
