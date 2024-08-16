@@ -1,5 +1,6 @@
 import About from '../../components/About';
 import Discount from '../../components/Discount';
+import Footer from '../../components/Footer';
 import Hero from '../../components/Hero';
 import Join from '../../components/Join';
 import Media from '../../components/Media';
@@ -16,6 +17,7 @@ export default function Home() {
       <About />
       <Join />
       <Price />
+      <Footer />
     </div>
   );
 }
