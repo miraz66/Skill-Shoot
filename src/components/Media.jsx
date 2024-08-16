@@ -6,7 +6,7 @@ import dribble from '../assets/dribble.png';
 
 export default function Media() {
   return (
-    <div className="mx-auto my-20 lg:my-28 max-w-5xl px-4 sm:px-6 lg:px-8">
+    <div className="mx-auto my-20 lg:my-28 max-w-5xl px-8 lg:px-10">
       <div className="text-center">
         <h1 className="text-xl text-current sm:text-4xl font-semibold tracking-tight">
           Trusted more than <span className="text-secondary">100+</span> in the
