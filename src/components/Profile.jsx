@@ -9,7 +9,7 @@ export default function Profile() {
     <>
       <div className="max-w-7xl mx-auto px-8 lg:px-10 lg:my-28">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-20">
-          <div className="xl:max-w-md mx-auto xl:mx-0 pr-10">
+          <div className="xl:max-w-md mx-auto xl:mx-0 sm:pr-10">
             <div className="text-center sm:text-left">
               <h1 className="text-2xl sm:text-4xl text-current font-semibold tracking-tight">
                 Why do we <span className="text-secondary">exist?</span>

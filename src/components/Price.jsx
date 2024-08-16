@@ -50,7 +50,7 @@ export default function Price() {
             </button>
           </div>
 
-          <div className="relative order-first bg-primary p-6 pt-20 -mt-24 rounded-2xl shadow-xl shadow-green-700/50 ">
+          <div className="relative max-md:order-first bg-primary p-6 pt-20 -mt-24 rounded-2xl shadow-xl shadow-green-700/50 ">
             <p className="absolute bg-secondary px-4 py-1 top-5 right-5 text-white text-xs uppercase rounded-full">
               Most Popular
             </p>
