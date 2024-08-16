@@ -61,7 +61,7 @@ export default function Profile() {
                 <h6 className="pt-6 pb-4 text-lg sm:text-2xl text-primary font-semibold tracking-tight">
                   Material Limitations
                 </h6>
-                <p className="text-muted text-xs leading-6 sm:leading-8">
+                <p className="text-muted text-xs leading-7 sm:leading-8">
                   Lorem Ipsum is simply dummy text of the printing and
                   typesetting industry.
                 </p>
@@ -77,7 +77,7 @@ export default function Profile() {
                 <h6 className="pt-6 pb-4 text-lg sm:text-2xl text-primary font-semibold tracking-tight">
                   Unprofessional Mentor
                 </h6>
-                <p className="text-muted text-xs leading-6 sm:leading-8">
+                <p className="text-muted text-xs leading-7 sm:leading-8">
                   Lorem Ipsum is simply dummy text of the printing and
                   typesetting industry.
                 </p>
@@ -93,7 +93,7 @@ export default function Profile() {
                 <h6 className="pt-6 pb-4 text-lg sm:text-2xl text-primary font-semibold tracking-tight">
                   Video Quality
                 </h6>
-                <p className="text-muted text-xs leading-6 sm:leading-8">
+                <p className="text-muted text-xs leading-7 sm:leading-8">
                   Lorem Ipsum is simply dummy text of the printing and
                   typesetting industry.
                 </p>
@@ -109,7 +109,7 @@ export default function Profile() {
                 <h6 className="pt-6 pb-4 text-lg sm:text-2xl text-primary font-semibold tracking-tight">
                   High Price
                 </h6>
-                <p className="text-muted text-xs leading-6 sm:leading-8">
+                <p className="text-muted text-xs leading-7 sm:leading-8">
                   Lorem Ipsum is simply dummy text of the printing and
                   typesetting industry.
                 </p>
