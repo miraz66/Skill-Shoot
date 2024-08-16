@@ -49,22 +49,22 @@ export default function Hero() {
             <img src={HeroImage} alt="hero-image" />
             <div>
               <img
-                className="absolute top-14 left-28"
+                className="absolute left-0 top-14 2xl:left-28"
                 src={Group_25}
                 alt="group-image"
               />
               <img
-                className="absolute top-40 right-24"
+                className="absolute top-40 right-10 2xl:right-24"
                 src={Group_15}
                 alt="group-image"
               />
               <img
-                className="absolute right-16 bottom-10"
+                className="absolute right-8 2xl:right-16 bottom-10"
                 src={Group_24}
                 alt="group-image"
               />
             </div>
-            <div className="absolute top-60 left-0 flex bg-white/80 p-4 gap-4 rounded-xl">
+            <div className="absolute top-60 -left-20 2xl:left-0 flex bg-white/80 p-4 gap-4 rounded-xl">
               <img
                 className="w-10 h-10"
                 src={unsplash_WNoLnJo}

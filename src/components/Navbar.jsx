@@ -96,9 +96,9 @@ export default function Navbar() {
               {item.name}
             </DisclosureButton>
           ))}
-          <div className="lg:hidden px-4">
+          <div className="lg:hidden px-3">
             <div className="flex gap-4">
-              <button className="text-white text-sm hover:text-gray-300">
+              <button className="text-white bg-white/10 px-8 py-1.5 rounded-md text-sm hover:text-gray-300">
                 Login
               </button>
               <button className="py-1.5 px-8 rounded-md font-medium text-white text-sm hover:bg-orange-400/70 bg-secondary ease-in-out duration-200">

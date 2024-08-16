@@ -27,22 +27,22 @@ export default function Discount() {
           />
           <div>
             <img
-              className="lg:block hidden absolute top-20 left-32"
+              className="lg:block hidden absolute top-20 left-14 2xl:left-32"
               src={Group_1}
               alt="group-1"
             />
             <img
-              className="lg:block hidden absolute top-20 right-24"
+              className="lg:block hidden absolute top-20 right-10 2xl:right-24"
               src={Group_2}
               alt="group-2"
             />
             <img
-              className="lg:block hidden absolute bottom-8 right-36"
+              className="lg:block hidden absolute bottom-8 right-20 2xl:right-36"
               src={Group_3}
               alt="group-3"
             />
             <img
-              className="absolute left-10 bottom-6 md:left-48 md:bottom-10"
+              className="absolute left-10 bottom-6 2xl:left-48 md:bottom-10"
               src={Group_4}
               alt="group-4"
             />
