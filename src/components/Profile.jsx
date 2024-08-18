@@ -8,7 +8,7 @@ export default function Profile() {
   return (
     <>
       <div className="max-w-7xl mx-auto px-8 lg:px-10 lg:mt-28">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-20">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-14">
           <div className="xl:max-w-md mx-auto xl:mx-0 sm:pr-10">
             <div className="text-center sm:text-left">
               <h1 className="text-2xl sm:text-4xl text-current font-semibold tracking-tight">
@@ -50,7 +50,7 @@ export default function Profile() {
             </div>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 md:gird-rows-2 gap-10">
+          <div className="grid grid-cols-1 md:grid-cols-2 md:gird-rows-2 gap-14 sm:gap-20">
             <div className="max-md:max-w-72 mx-auto text-center sm:text-left">
               <img
                 className="mx-auto sm:mx-0"

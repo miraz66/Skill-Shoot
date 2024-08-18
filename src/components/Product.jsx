@@ -4,8 +4,8 @@ import Group_577 from '../assets/Group 577.png';
 
 export default function Product() {
   return (
-    <div className="bg-primary overflow-hidden mt-20 sm:mt-28">
-      <div className="relative max-w-7xl mx-auto px-8 lg:px-10 py-20 sm:py-28">
+    <div className="bg-primary overflow-hidden mt-14 sm:mt-20">
+      <div className="relative max-w-7xl mx-auto px-8 lg:px-0 py-20 sm:py-20">
         <div className="max-w-xl mx-auto sm:px-5 text-center">
           <h3 className="text-lg sm:text-4xl text-white font-semibold">
             Popular courses of the week

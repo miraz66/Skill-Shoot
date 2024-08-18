@@ -1,9 +1,10 @@
 import { PlayIcon } from '@heroicons/react/24/solid';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { FiUser } from 'react-icons/fi';
 import PropTypes from 'prop-types';
 
 export default function ProductCard({
+  id,
   image,
   title,
   name,
@@ -15,16 +16,24 @@ export default function ProductCard({
   video_items,
 }) {
   const [isPlaying, setIsPlaying] = useState(false);
+  const [currentIndex, setCurrentIndex] = useState(null);
+
+  useEffect(() => {
+    if (currentIndex === id) {
+      setIsPlaying(true);
+    } else {
+      setIsPlaying(false);
+    }
+  }, [currentIndex, id]);
 
   return (
     <>
-      <div className="bg-white rounded-2xl shadow-lg">
+      <div className="bg-white rounded-2xl shadow-lg h-[365px] lg:h-full">
         <div className="w-full shadow">
           <div className="relative">
             {isPlaying ? (
               <iframe
                 className="w-full h-60 rounded-t-2xl"
-                // src={`https://www.youtube.com/embed/kanHxPcIuQo`}
                 src={`https://www.youtube.com/embed/${video_url}?autoplay=${
                   isPlaying ? 1 : 0
                 }`}
@@ -43,7 +52,7 @@ export default function ProductCard({
 
                 <div className="group absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-20 h-20 bg-white/30 rounded-full flex items-center justify-center">
                   <button
-                    onClick={() => setIsPlaying(!isPlaying)}
+                    onClick={() => setCurrentIndex(id)}
                     className="h-14 w-14 bg-white group-hover:bg-primary flex items-center justify-center rounded-full"
                   >
                     <PlayIcon className="w-8 h-8 text-primary group-hover:text-white" />
@@ -54,7 +63,7 @@ export default function ProductCard({
           </div>
         </div>
         <div className="p-4 sm:p-8">
-          <div className="">
+          <div>
             <h6 className="text-sm sm:text-2xl font-semibold tracking-tight">
               {title}
             </h6>
@@ -70,7 +79,7 @@ export default function ProductCard({
               </div>
               <div className="flex gap-2 items-center">
                 <FiUser className="w-8 h-8 text-4xl text-primary" />
-                <div className="">
+                <div>
                   <p className="font-semibold">{Participant}</p>
                   <p className="text-[8px] sm:text-xs text-muted">
                     Participant

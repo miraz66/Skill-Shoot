@@ -17,7 +17,7 @@ function classNames(...classes) {
 export default function Footer() {
   return (
     <div className="bg-primary">
-      <div className="relative max-w-7xl mx-auto px-8 lg:px-10 pt-28 lg:pt-40 pb-10">
+      <div className="relative max-w-7xl mx-auto px-8 lg:px-10 pt-24 lg:pt-32 pb-10">
         <div className="max-w-2xl mx-auto">
           <h1 className="max-md:max-w-64 mx-auto sm:mx-0 text-center sm:text-left text-white/90 text-lg sm:text-4xl tracking-tight font-medium">
             Subscribe to get notified about update
@@ -26,7 +26,7 @@ export default function Footer() {
             By subscribing with your mail, you will accept our privacy policy
           </p>
 
-          <div className="max-w-xl mx-auto pt-12 sm:mt-16 flex justify-center">
+          <div className="max-w-xl mx-auto pt-8 sm:pt-12  flex justify-center">
             <div className="space-y-4 sm:space-x-4">
               <input
                 className="bg-white/10 text-white max-md:max-w-72 py-2 pl-4 sm:py-4 sm:pl-8 outline-none rounded"
@@ -39,6 +39,7 @@ export default function Footer() {
             </div>
           </div>
         </div>
+
         <div className="flex justify-between items-center flex-col sm:flex-row pt-10 sm:pt-28 lg:pt-40">
           <div>
             <img className="pt-10 sm:pt-0" src={Logo} alt="company logo" />

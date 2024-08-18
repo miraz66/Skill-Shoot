@@ -11,7 +11,7 @@ const features = [
 export default function Price() {
   return (
     <>
-      <div className="max-w-4xl mx-auto px-14 lg:px-10 mb-20 sm:mb-32 sm:pt-10">
+      <div className="max-w-5xl mx-auto px-14 lg:px-10 mb-20 sm:mb-32 sm:pt-10">
         <div className="max-w-xl mx-auto sm:px-5 text-center">
           <h3 className="text-lg sm:text-4xl font-semibold tracking-tight">
             <span className="text-secondary">Subscribe</span> with us now
@@ -21,6 +21,7 @@ export default function Price() {
             and cheaply, so you will be very efficient and benefit
           </p>
         </div>
+
         <div className="mt-40 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
           <div className="px-8 sm:px-0 sm:pr-6">
             <h5 className="text-4xl font-bold">
@@ -28,12 +29,12 @@ export default function Price() {
               <span className="text-sm text-muted font-medium">/ 1 month</span>
             </h5>
             <p className="mt-1 text-2xl font-semibold">Base</p>
-            <p className="mt-2 text-muted">
+            <p className="mt-2 text-muted text-sm sm:text-base leading-7 sm:leading-9">
               Lorem Ipsum is simply dummy text of the printing and typesetting
               industry.
             </p>
-            <div className="">
-              <ul className="mt-2 space-y-1">
+            <div>
+              <ul className="mt-6 space-y-2">
                 {features.map((feature) => (
                   <li
                     key={feature}
@@ -45,7 +46,7 @@ export default function Price() {
                 ))}
               </ul>
             </div>
-            <button className="bg-amber-700/30 hover:bg-secondary ease-in-out duration-200 text-sm text-white w-full py-2 rounded-full mt-4">
+            <button className="bg-amber-700/30 hover:bg-secondary ease-in-out duration-200 text-sm text-white w-full py-2 rounded-full mt-6">
               Choose Plan
             </button>
           </div>
@@ -61,11 +62,11 @@ export default function Price() {
               </span>
             </h5>
             <p className="mt-1 text-white text-2xl font-semibold">Pro</p>
-            <p className="mt-2 text-sm text-gray-200">
+            <p className="mt-2 text-sm sm:text-base leading-7 sm:leading-9 text-gray-200">
               Lorem Ipsum is simply dummy text of the printing.
             </p>
-            <div className="">
-              <ul className="mt-4 space-y-1">
+            <div>
+              <ul className="mt-4 space-y-2">
                 {features.map((feature) => (
                   <li
                     key={feature}
@@ -78,7 +79,7 @@ export default function Price() {
               </ul>
             </div>
 
-            <button className="bg-secondary hover:bg-amber-700/70 ease-in-out duration-200 text-sm text-white w-full py-2 rounded-full mt-6">
+            <button className="bg-secondary hover:bg-amber-700/70 ease-in-out duration-200 text-sm text-white w-full py-2 rounded-full mt-8">
               Choose Plan
             </button>
           </div>
@@ -89,12 +90,12 @@ export default function Price() {
               <span className="text-sm text-muted font-medium">/ 1 month</span>
             </h5>
             <p className="mt-1 text-2xl font-semibold">Enterprise</p>
-            <p className="mt-2 text-muted">
+            <p className="mt-2 text-muted text-sm sm:text-base leading-7 sm:leading-9">
               Lorem Ipsum is simply dummy text of the printing and typesetting
               industry.
             </p>
-            <div className="">
-              <ul className="mt-2 space-y-1">
+            <div>
+              <ul className="mt-4 space-y-2">
                 {features.map((feature) => (
                   <li
                     key={feature}
@@ -106,7 +107,7 @@ export default function Price() {
                 ))}
               </ul>
             </div>
-            <button className="bg-amber-700/30 hover:bg-secondary ease-in-out duration-200 text-sm text-white w-full py-2 rounded-full mt-4">
+            <button className="bg-amber-700/30 hover:bg-secondary ease-in-out duration-200 text-sm text-white w-full py-2 rounded-full mt-8">
               Choose Plan
             </button>
           </div>

@@ -18,7 +18,7 @@ const data = [
     name: 'Jone Owel',
     job_title: 'IT Engineer',
     Participant: 120,
-    video_url: 'kanHxPcIuQo',
+    video_url: '2M23skx2TK8',
     video_img: Video_img_1,
     course_price: 120,
     video_items: 25,
@@ -31,7 +31,7 @@ const data = [
     name: 'Roynaldo Jr',
     job_title: 'Data Science',
     Participant: 55,
-    video_url: 'kanHxPcIuQo',
+    video_url: '2M23skx2TK8',
     video_img: Video_img_2,
     course_price: 180,
     video_items: 20,
@@ -44,7 +44,7 @@ const data = [
     name: 'Markus Low',
     job_title: 'Programer',
     Participant: 98,
-    video_url: 'kanHxPcIuQo',
+    video_url: 'PL5f_mz_zU5eXWYDXHUDOLBE0scnuJofO0&index=2',
     video_img: Video_img_3,
     course_price: 135,
     video_items: 20,
@@ -57,7 +57,7 @@ const data = [
     name: 'Markus Low',
     job_title: 'Programer',
     Participant: 98,
-    video_url: 'kanHxPcIuQo',
+    video_url: '5r25Y9Vg2P4',
     video_img: Video_img_1,
     course_price: 135,
     video_items: 20,
@@ -70,7 +70,7 @@ const data = [
     name: 'Markus Low',
     job_title: 'Programer',
     Participant: 98,
-    video_url: 'kanHxPcIuQo',
+    video_url: 'PL5f_mz_zU5eXWYDXHUDOLBE0scnuJofO0&index=2',
     video_img: Video_img_2,
     course_price: 135,
     video_items: 20,
@@ -83,7 +83,7 @@ const data = [
     name: 'Markus Low',
     job_title: 'Programer',
     Participant: 98,
-    video_url: 'kanHxPcIuQo',
+    video_url: '5r25Y9Vg2P4',
     video_img: Video_img_3,
     course_price: 135,
     video_items: 25,
@@ -109,9 +109,9 @@ const ProductCarousel = () => {
   };
 
   return (
-    <div className="relative w-full h-[357px] sm:h-[527px] flex justify-center mt-20">
+    <div className="relative w-full h-[357px] sm:h-[527px] flex justify-center mt-12">
       <div
-        className={clsx('relative w-96 h-64 perspective-1000', {
+        className={clsx('relative w-[25.5rem] h-64 perspective-1000', {
           'w-72 h-64': isMobile,
         })}
       >
@@ -150,15 +150,27 @@ const ProductCarousel = () => {
 
       <button
         onClick={prevImage}
-        className="absolute -left-6 top-1/2 transform -translate-y-1/2 p-3.5 bg-primary text-white/90 border-4 border-white rounded-full z-30"
+        className={clsx(
+          'absolute -left-5 sm:-left-6 top-1/2 transform -translate-y-1/2 p-2.5 sm:p-3.5 border-4 border-white rounded-full z-30',
+          currentIndex === 0
+            ? 'bg-white text-black border-4 border-gray-200'
+            : 'bg-primary text-white/90'
+        )}
+        disabled={currentIndex === 0}
       >
-        <ArrowLeftIcon className="w-5 h-5" />
+        <ArrowLeftIcon className="w-4 h-4 sm:w-5 sm:h-5" />
       </button>
       <button
         onClick={nextImage}
-        className="absolute -right-6 top-1/2 transform -translate-y-1/2 p-3.5 border-4 border-white/90 bg-gray-800 text-white rounded-full z-30"
+        className={clsx(
+          'absolute -right-5 sm:-right-6 top-1/2 transform -translate-y-1/2 p-2.5 sm:p-3.5  rounded-full z-30',
+          currentIndex === data.length - 1
+            ? 'bg-white text-black border-4 border-gray-200'
+            : 'bg-primary text-white/90 border-4 border-white'
+        )}
+        disabled={currentIndex === data.length - 1}
       >
-        <ArrowRightIcon className="w-5 h-5" />
+        <ArrowRightIcon className="w-4 h-4 sm:w-5 sm:h-5" />
       </button>
     </div>
   );

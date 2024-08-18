@@ -48,6 +48,7 @@ export default function Discount() {
             />
           </div>
         </div>
+
         <div>
           <img
             className="absolute top-0 left-0"
