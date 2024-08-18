@@ -7,7 +7,7 @@ import Profile_image_4 from '../assets/Group.png';
 export default function Profile() {
   return (
     <>
-      <div className="max-w-7xl mx-auto px-8 lg:px-10 lg:my-28">
+      <div className="max-w-7xl mx-auto px-8 lg:px-10 lg:mt-28">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-20">
           <div className="xl:max-w-md mx-auto xl:mx-0 sm:pr-10">
             <div className="text-center sm:text-left">

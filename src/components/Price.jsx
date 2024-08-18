@@ -11,7 +11,7 @@ const features = [
 export default function Price() {
   return (
     <>
-      <div className="max-w-4xl mx-auto px-14 lg:px-10 mb-20 pt-10">
+      <div className="max-w-4xl mx-auto px-14 lg:px-10 mb-20 sm:mb-32 sm:pt-10">
         <div className="max-w-xl mx-auto sm:px-5 text-center">
           <h3 className="text-lg sm:text-4xl font-semibold tracking-tight">
             <span className="text-secondary">Subscribe</span> with us now
