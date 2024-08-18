@@ -6,7 +6,7 @@ import dribble from '../assets/dribble.png';
 
 export default function Media() {
   return (
-    <div className="mx-auto my-20 lg:my-28 max-w-5xl px-8 lg:px-10">
+    <div className="mx-auto my-14 lg:my-24 max-w-5xl px-8 lg:px-10">
       <div className="text-center">
         <h1 className="text-xl text-current sm:text-4xl font-semibold tracking-tight">
           Trusted more than <span className="text-secondary">100+</span> in the
@@ -17,7 +17,7 @@ export default function Media() {
           various things. to improve their skills
         </p>
       </div>
-      <div className="flex justify-center sm:justify-between flex-wrap items-center gap-5 sm:gap-0 mt-10">
+      <div className="flex justify-center sm:justify-between flex-wrap items-center gap-5 sm:gap-0 mt-14">
         <img src={ubar} alt="ubar" className="h-6 sm:h-8" />
         <img src={google} alt="google" className="h-6 sm:h-8" />
         <img src={paypal} alt="paypal" className="h-6 sm:h-8" />

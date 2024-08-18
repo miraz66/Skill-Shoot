@@ -74,7 +74,7 @@ export default function Testimonial() {
 
   return (
     <div className="bg-muted">
-      <div className="max-w-7xl mx-auto px-8 lg:px-0 py-20 sm:py-28">
+      <div className="max-w-7xl mx-auto px-8 lg:px-0 py-14 sm:py-20">
         <div className="max-w-xl mx-auto text-center pb-20">
           <h1 className="text-3xl sm:text-4xl text-current font-semibold">
             What do they <span className="text-secondary">say?</span>

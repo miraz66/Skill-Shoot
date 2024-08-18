@@ -4,7 +4,7 @@ import {
   DisclosurePanel,
 } from '@headlessui/react';
 import { XMarkIcon } from '@heroicons/react/24/outline';
-import Logo from '../assets/logo.png';
+import Logo from '../assets/Logo.svg';
 import Vector from '../assets/Vector.svg';
 
 const navigation = [
@@ -22,7 +22,7 @@ function classNames(...classes) {
 export default function Navbar() {
   return (
     <Disclosure as="nav">
-      <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+      <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 pt-1 sm:pt-3">
         <div className="relative flex h-16 items-center justify-between">
           <div className="absolute inset-y-0 right-0 flex items-center lg:hidden">
             {/* Mobile menu button*/}
@@ -43,7 +43,7 @@ export default function Navbar() {
 
           <div className="flex flex-1 items-center sm:items-stretch sm:justify-between">
             <div className="flex flex-shrink-0 items-center">
-              <img className="block h-4 w-auto" src={Logo} alt="Your Company" />
+              <img className="block h-6 w-auto" src={Logo} alt="Your Company" />
             </div>
             <div className="hidden sm:ml-6 lg:block">
               <div className="flex space-x-4">
@@ -69,7 +69,7 @@ export default function Navbar() {
                 <button className="text-white text-sm hover:text-gray-300">
                   Login
                 </button>
-                <button className="py-2.5 px-8 rounded-md font-medium text-white text-sm hover:bg-orange-400/70 bg-secondary ease-in-out duration-200">
+                <button className="py-3 px-8 rounded-md font-medium text-white text-sm hover:bg-orange-400/70 bg-secondary ease-in-out duration-200">
                   Register
                 </button>
               </div>

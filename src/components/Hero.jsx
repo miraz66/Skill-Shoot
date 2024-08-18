@@ -13,7 +13,7 @@ export default function Hero() {
   return (
     <div className="bg-primary">
       <Navbar />
-      <div className="mx-auto py-10 sm:py-14 max-w-7xl px-4 sm:px-6 lg:px-8 grid grid-cols-1 lg:grid-cols-2 gap-20">
+      <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 grid grid-cols-1 lg:grid-cols-2 gap-20 pt-16">
         <div className="text-center sm:text-left">
           <h1 className="text-3xl sm:text-6xl text-white font-medium traking-tight leading-[50px] sm:leading-[90px]">
             There is{' '}

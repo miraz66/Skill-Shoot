@@ -56,7 +56,7 @@ export default function About() {
             <h1 className="relative max-w-xs text-xl sm:text-4xl text-current font-bold">
               Let us <span className="text-primary">Skill Shoot</span>
               <img
-                className="absolute left-16 sm:right-4 sm:top-9 w-28 sm:w-48"
+                className="absolute left-16 sm:left-28 sm:right-4 sm:top-9 w-28 sm:w-48"
                 src={Vector_1}
                 alt="vector"
               />

@@ -1,4 +1,4 @@
-import Logo from '../assets/logo.png';
+import Logo from '../assets/Logo.svg';
 import Vector_15 from '../assets/Vector 15.svg';
 import Group_image from '../assets/Group 162529.svg';
 
