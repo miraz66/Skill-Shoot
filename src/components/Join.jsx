@@ -1,5 +1,5 @@
-import Intersect from '../assets/Intersect.png';
-import Group_575 from '../assets/Group 575.png';
+import Intersect from '../assets/IntersectLeft.png';
+import Group575 from '../assets/Group575.png';
 
 export default function Join() {
   return (
@@ -31,7 +31,7 @@ export default function Join() {
             />
             <img
               className="absolute max-md:top-36 -right-4 sm:-bottom-5 sm:right-[35rem]"
-              src={Group_575}
+              src={Group575}
               alt="group-577"
             />
           </div>

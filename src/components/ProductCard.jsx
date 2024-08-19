@@ -8,12 +8,12 @@ export default function ProductCard({
   image,
   title,
   name,
-  job_title,
+  jobTitle,
   Participant,
-  video_url,
-  video_img,
-  course_price,
-  video_items,
+  videoUrl,
+  videoImg,
+  coursePrice,
+  videoItems,
 }) {
   const [isPlaying, setIsPlaying] = useState(false);
   const [currentIndex, setCurrentIndex] = useState(null);
@@ -34,7 +34,7 @@ export default function ProductCard({
             {isPlaying ? (
               <iframe
                 className="w-full h-60 rounded-t-2xl"
-                src={`https://www.youtube.com/embed/${video_url}?autoplay=${
+                src={`https://www.youtube.com/embed/${videoUrl}?autoplay=${
                   isPlaying ? 1 : 0
                 }`}
                 title="YouTube Video"
@@ -46,7 +46,7 @@ export default function ProductCard({
               <div className="relative">
                 <img
                   className="w-full h-full object-cover rounded-t-2xl"
-                  src={video_img}
+                  src={videoImg}
                   alt="image"
                 />
 
@@ -73,7 +73,7 @@ export default function ProductCard({
                 <div className="space-y-1">
                   <p className="text-[10px] sm:text-sm font-medium">{name}</p>
                   <p className="text-[7px] sm:text-[10px] text-muted">
-                    {job_title}
+                    {jobTitle}
                   </p>
                 </div>
               </div>
@@ -93,9 +93,9 @@ export default function ProductCard({
               Buy Now
             </button>
             <p className="text-base sm:text-2xl font-semibold">
-              ${course_price}{' '}
+              ${coursePrice}{' '}
               <span className="text-[8px] sm:text-xs text-muted">
-                / {video_items} video
+                / {videoItems} video
               </span>
             </p>
           </div>
@@ -110,10 +110,10 @@ ProductCard.propTypes = {
   image: PropTypes.string,
   title: PropTypes.string,
   name: PropTypes.string,
-  job_title: PropTypes.string,
+  jobTitle: PropTypes.string,
   Participant: PropTypes.number,
-  video_url: PropTypes.string,
-  video_img: PropTypes.string,
-  course_price: PropTypes.number,
-  video_items: PropTypes.number,
+  videoUrl: PropTypes.string,
+  videoImg: PropTypes.string,
+  coursePrice: PropTypes.number,
+  videoItems: PropTypes.number,
 };

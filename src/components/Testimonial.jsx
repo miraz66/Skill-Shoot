@@ -1,8 +1,8 @@
 import { useState } from 'react';
 import CardSlider from './CardSlider';
-import Jason_Bay_image from '../assets/Jason-Bay.png';
-import Nany_Brugman_image from '../assets/Nany-Brugman.png';
-import Alexa_Nowan_image from '../assets/Alexa-Nowan.png';
+import JasonBayImage from '../assets/Jason-Bay.png';
+import NanyBrugmanImage from '../assets/Nany-Brugman.png';
+import AlexaNowanImage from '../assets/Alexa-Nowan.png';
 
 import {
   ArrowLeftIcon,
@@ -15,42 +15,42 @@ const cards = [
   {
     id: 1,
     title: 'Jason Bay',
-    image: Jason_Bay_image,
+    image: JasonBayImage,
     content:
       'I am quite satisfied, because the skills I want or dream of can really be mastered',
   },
   {
     id: 2,
     title: 'Nany Brugman',
-    image: Nany_Brugman_image,
+    image: NanyBrugmanImage,
     content:
       'I am quite satisfied, because the skills I want or dream of can really be mastered',
   },
   {
     id: 3,
     title: 'Alexa Nowan',
-    image: Alexa_Nowan_image,
+    image: AlexaNowanImage,
     content:
       'I am quite satisfied, because the skills I want or dream of can really be mastered',
   },
   {
     id: 4,
     title: 'Jason Bay',
-    image: Jason_Bay_image,
+    image: JasonBayImage,
     content:
       'I am quite satisfied, because the skills I want or dream of can really be mastered',
   },
   {
     id: 5,
     title: 'Nany Brugman',
-    image: Nany_Brugman_image,
+    image: NanyBrugmanImage,
     content:
       'I am quite satisfied, because the skills I want or dream of can really be mastered',
   },
   {
-    id: 5,
+    id: 6,
     title: 'Alexa Nowan',
-    image: Alexa_Nowan_image,
+    image: AlexaNowanImage,
     content:
       'I am quite satisfied, because the skills I want or dream of can really be mastered',
   },

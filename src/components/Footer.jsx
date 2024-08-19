@@ -1,6 +1,6 @@
 import Logo from '../assets/Logo.svg';
 import Vector15 from '../assets/Vector15.svg';
-import Group_image from '../assets/Group 162529.svg';
+import GroupImage from '../assets/Group162.svg';
 
 const navigation = [
   { name: 'Home', href: '#', current: true },
@@ -71,7 +71,7 @@ export default function Footer() {
           />
           <img
             className="absolute max-md:w-14 bottom-72 right-10 sm:top-10 sm:right-12 lg:top-52 lg:right-24"
-            src={Group_image}
+            src={GroupImage}
             alt="vector logo"
           />
         </div>

@@ -13,7 +13,7 @@ export default function Hero() {
   return (
     <div className="bg-primary">
       <Navbar />
-      <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 grid grid-cols-1 lg:grid-cols-2 gap-20 pt-16 pb-10 sm:pb-0">
+      <div className="mx-auto relative max-w-7xl px-4 sm:px-6 lg:px-8 grid grid-cols-1 lg:grid-cols-2 gap-20 pt-16 pb-10 sm:pb-0">
         <div className="text-center sm:text-left">
           <h1 className="text-3xl sm:text-6xl text-white font-medium traking-tight leading-[50px] sm:leading-[90px]">
             There is{' '}
@@ -32,16 +32,34 @@ export default function Hero() {
             help your career, with mentors who are experienced in their fields.
           </p>
           <div className="flex flex-col lg:flex-row gap-4 items-center mt-10">
-            <button className="group text-white text-lg font-bold bg-secondary px-5 py-2 sm:px-6 sm:py-3 gap-2 flex justify-center items-center">
+            <button className="group text-white text-lg font-bold bg-secondary px-5 py-3 sm:px-6 sm:py-3 gap-2 flex justify-center items-center max-md:rounded">
               Start Journey
               <ArrowUpRightIcon className="text-white w-4 h-4 transform transition-transform duration-300 group-hover:rotate-45 ease-in-out" />
             </button>
 
-            <div className="flex gap-4">
+            <div className="flex gap-4 mt-4 sm:mt-0">
               <RiInstagramFill className="w-6 sm:w-8 h-6 sm:h-8 text-white cursor-pointer hover:text-gray-300 duration-150 ease-in-out" />
               <FaTwitter className="w-6 sm:w-8 h-6 sm:h-8 text-white cursor-pointer hover:text-gray-300 duration-150 ease-in-out" />
               <RiDiscordFill className="w-6 sm:w-8 h-6 sm:h-8 text-white cursor-pointer hover:text-gray-300 duration-150 ease-in-out" />
             </div>
+          </div>
+
+          <div className="block sm:hidden">
+            <img
+              className="absolute w-10 left-6 top-10 z-10"
+              src={Group25}
+              alt="group-image"
+            />
+            <img
+              className="absolute w-10 bottom-10 right-5"
+              src={Group15}
+              alt="group-image"
+            />
+            <img
+              className="absolute w-10 left-8 bottom-24"
+              src={Group24}
+              alt="group-image"
+            />
           </div>
         </div>
         <div className="hidden lg:block">

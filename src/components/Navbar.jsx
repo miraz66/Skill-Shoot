@@ -69,7 +69,7 @@ export default function Navbar() {
               </div>
             </div>
             <div className="hidden sm:ml-6 lg:block">
-              <div className="flex gap-4 max-xl:mr-10">
+              <div className="flex gap-8 max-xl:mr-10">
                 <button className="text-white text-sm hover:text-gray-300">
                   Login
                 </button>

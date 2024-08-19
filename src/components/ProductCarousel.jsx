@@ -1,10 +1,10 @@
 import { useEffect, useState } from 'react';
-import Programer_image_1 from '../assets/programer_img_1.png';
-import Programer_image_2 from '../assets/programer_img_2.png';
-import Programer_image_3 from '../assets/programer_img_3.png';
-import Video_img_1 from '../assets/Video-img-1.png';
-import Video_img_2 from '../assets/Video-img-2.png';
-import Video_img_3 from '../assets/Video-img-3.png';
+import ProgramerImage1 from '../assets/programer-img-1.png';
+import ProgramerImage2 from '../assets/programer-img-2.png';
+import ProgramerImage3 from '../assets/programer-img-3.png';
+import VideoImg1 from '../assets/Video-img-1.png';
+import VideoImg2 from '../assets/Video-img-2.png';
+import VideoImg3 from '../assets/Video-img-3.png';
 
 import { ArrowLeftIcon, ArrowRightIcon } from '@heroicons/react/24/solid';
 import ProductCard from './ProductCard';
@@ -13,80 +13,80 @@ import clsx from 'clsx';
 const data = [
   {
     id: 1,
-    image: Programer_image_1,
+    image: ProgramerImage1,
     title: 'Basics of learning team management',
     name: 'Jone Owel',
-    job_title: 'IT Engineer',
+    jobTitle: 'IT Engineer',
     Participant: 120,
-    video_url: '2M23skx2TK8',
-    video_img: Video_img_1,
-    course_price: 120,
-    video_items: 25,
+    videoUrl: '2M23skx2TK8',
+    videoImg: VideoImg1,
+    coursePrice: 120,
+    videoItems: 25,
   },
 
   {
     id: 2,
-    image: Programer_image_2,
+    image: ProgramerImage2,
     title: 'Learn basic database structure',
     name: 'Roynaldo Jr',
-    job_title: 'Data Science',
+    jobTitle: 'Data Science',
     Participant: 55,
-    video_url: '2M23skx2TK8',
-    video_img: Video_img_2,
-    course_price: 180,
-    video_items: 20,
+    videoUrl: '2M23skx2TK8',
+    videoImg: VideoImg2,
+    coursePrice: 180,
+    videoItems: 20,
   },
 
   {
     id: 3,
-    image: Programer_image_3,
+    image: ProgramerImage3,
     title: 'Create dynamic website with basic php',
     name: 'Markus Low',
-    job_title: 'Programer',
+    jobTitle: 'Programer',
     Participant: 98,
-    video_url: 'PL5f_mz_zU5eXWYDXHUDOLBE0scnuJofO0&index=2',
-    video_img: Video_img_3,
-    course_price: 135,
-    video_items: 20,
+    videoUrl: 'PL5f_mz_zU5eXWYDXHUDOLBE0scnuJofO0&index=2',
+    videoImg: VideoImg3,
+    coursePrice: 135,
+    videoItems: 20,
   },
 
   {
     id: 4,
-    image: Programer_image_1,
+    image: ProgramerImage1,
     title: 'Create dynamic website with basic php',
     name: 'Markus Low',
-    job_title: 'Programer',
+    jobTitle: 'Programer',
     Participant: 98,
-    video_url: '5r25Y9Vg2P4',
-    video_img: Video_img_1,
-    course_price: 135,
-    video_items: 20,
+    videoUrl: '5r25Y9Vg2P4',
+    videoImg: VideoImg1,
+    coursePrice: 135,
+    videoItems: 20,
   },
 
   {
     id: 5,
-    image: Programer_image_2,
+    image: ProgramerImage2,
     title: 'Create dynamic website with basic php',
     name: 'Markus Low',
-    job_title: 'Programer',
+    jobTitle: 'Programer',
     Participant: 98,
-    video_url: 'PL5f_mz_zU5eXWYDXHUDOLBE0scnuJofO0&index=2',
-    video_img: Video_img_2,
-    course_price: 135,
-    video_items: 20,
+    videoUrl: 'PL5f_mz_zU5eXWYDXHUDOLBE0scnuJofO0&index=2',
+    videoImg: VideoImg2,
+    coursePrice: 135,
+    videoItems: 20,
   },
 
   {
     id: 6,
-    image: Programer_image_3,
+    image: ProgramerImage3,
     title: 'Create dynamic website with basic php',
     name: 'Markus Low',
-    job_title: 'Programer',
+    jobTitle: 'Programer',
     Participant: 98,
-    video_url: '5r25Y9Vg2P4',
-    video_img: Video_img_3,
-    course_price: 135,
-    video_items: 25,
+    videoUrl: '5r25Y9Vg2P4',
+    videoImg: VideoImg3,
+    coursePrice: 135,
+    videoItems: 25,
   },
 ];
 

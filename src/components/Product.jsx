@@ -1,6 +1,6 @@
 import ProductCarousel from './ProductCarousel';
-import Group_575 from '../assets/Group 575.png';
-import Group_577 from '../assets/Group 577.png';
+import Group575 from '../assets/Group575.png';
+import Group577 from '../assets/Group577.png';
 
 export default function Product() {
   return (
@@ -19,13 +19,13 @@ export default function Product() {
 
         <div>
           <img
-            className="absolute w-10 sm:w-full top-8 left-6 sm:top-48 sm:left-36"
-            src={Group_575}
+            className="absolute w-10 sm:w-12 top-8 left-6 sm:top-40 sm:left-36"
+            src={Group575}
             alt="group-575"
           />
           <img
-            className="absolute w-5 sm:w-full top-16 right-8 sm:top-36 sm:right-36"
-            src={Group_577}
+            className="absolute w-5 sm:w-8 top-16 right-8 sm:top-36 sm:right-36"
+            src={Group577}
             alt="group-577"
           />
         </div>

@@ -1,8 +1,8 @@
-import User_image from '../assets/unsplash_d1UPkiFd04A.png';
-import Profile_image_1 from '../assets/Group 542.png';
-import Profile_image_2 from '../assets/pyramid.png';
-import Profile_image_3 from '../assets/wool-ball.png';
-import Profile_image_4 from '../assets/Group.png';
+import UserImage from '../assets/unsplash-D1UPkiFd04A.png';
+import ProfileImage1 from '../assets/Group542.png';
+import ProfileImage2 from '../assets/pyramid.png';
+import ProfileImage3 from '../assets/wool-ball.png';
+import ProfileImage4 from '../assets/Group.png';
 
 export default function Profile() {
   return (
@@ -21,7 +21,7 @@ export default function Profile() {
               </p>
             </div>
             <div className="py-6 flex items-center max-md:justify-center gap-4">
-              <img className="max-md:w-12" src={User_image} alt="user image" />
+              <img className="max-md:w-12" src={UserImage} alt="user image" />
               <div>
                 <h4 className="text-current max:md:text-sm font-semibold">
                   Jerony Pulquosta
@@ -54,7 +54,7 @@ export default function Profile() {
             <div className="max-md:max-w-72 mx-auto text-center sm:text-left">
               <img
                 className="mx-auto sm:mx-0"
-                src={Profile_image_1}
+                src={ProfileImage1}
                 alt="Group image"
               />
               <div>
@@ -70,7 +70,7 @@ export default function Profile() {
             <div className="max-md:max-w-72 mx-auto text-center sm:text-left">
               <img
                 className="mx-auto sm:mx-0"
-                src={Profile_image_2}
+                src={ProfileImage2}
                 alt="Group image"
               />
               <div>
@@ -86,7 +86,7 @@ export default function Profile() {
             <div className="max-md:max-w-72 mx-auto text-center sm:text-left">
               <img
                 className="mx-auto sm:mx-0"
-                src={Profile_image_3}
+                src={ProfileImage3}
                 alt="Group image"
               />
               <div>
@@ -102,7 +102,7 @@ export default function Profile() {
             <div className="max-md:max-w-72 mx-auto text-center sm:text-left">
               <img
                 className="mx-auto sm:mx-0"
-                src={Profile_image_4}
+                src={ProfileImage4}
                 alt="Group image"
               />
               <div>
