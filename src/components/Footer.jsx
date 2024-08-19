@@ -29,11 +29,11 @@ export default function Footer() {
           <div className="max-w-xl mx-auto pt-8 sm:pt-12  flex justify-center">
             <div className="space-y-4 sm:space-x-4">
               <input
-                className="bg-white/10 text-white max-md:max-w-72 py-2 pl-4 sm:py-4 sm:pl-8 outline-none rounded"
+                className="bg-white/10 text-white max-md:max-w-72 py-3 pl-6 sm:py-4 sm:pl-8 outline-none rounded"
                 placeholder="Enter your email"
                 type="text"
               />
-              <button className="bg-secondary max-md:block mx-auto text-sm sm:text-base text-white py-2 px-3 sm:py-4 sm:px-6 rounded">
+              <button className="bg-secondary max-md:block mx-auto text-sm sm:text-base text-white py-3 px-5 sm:py-4 sm:px-6 rounded">
                 Subscribe us
               </button>
             </div>
