@@ -1,15 +1,15 @@
-import PropTypes from 'prop-types';
-import { useEffect } from 'react';
+import PropTypes from "prop-types";
+import { useEffect } from "react";
 
 const CardSlider = ({ currentIndex, isMobile, setIsMobile, children }) => {
   useEffect(() => {
     const handleResize = () => setIsMobile(window.innerWidth < 640);
-    window.addEventListener('resize', handleResize);
-    return () => window.removeEventListener('resize', handleResize);
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
   }, [setIsMobile]);
 
   return (
-    <div className="w-full max-w-7xl mx-auto">
+    <div className="mx-auto w-full max-w-7xl">
       <div className="relative overflow-hidden">
         <div
           className="flex transition-transform duration-300 ease-in-out"
