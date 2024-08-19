@@ -4,7 +4,7 @@ import Group575 from "../assets/Group575.png";
 export default function Join() {
   return (
     <>
-      <div className="relative mx-8 mb-20 max-w-7xl rounded-xl bg-extra p-20 lg:mx-auto">
+      <div className="relative mx-8 mb-20 max-w-7xl rounded-xl bg-extra p-10 sm:p-20 lg:mx-auto">
         <div className="grid grid-cols-1 lg:grid-cols-2">
           <div className="max-w-2xl">
             <h1 className="text-center text-xl font-semibold leading-8 tracking-tight sm:text-left sm:text-4xl sm:leading-[50px]">
