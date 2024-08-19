@@ -43,7 +43,11 @@ export default function Navbar() {
 
           <div className="flex flex-1 items-center sm:items-stretch sm:justify-between">
             <div className="flex flex-shrink-0 items-center">
-              <img className="block h-6 w-auto" src={Logo} alt="Your Company" />
+              <img
+                className="block sm:h-6 w-auto"
+                src={Logo}
+                alt="Your Company"
+              />
             </div>
             <div className="hidden sm:ml-6 lg:block">
               <div className="flex space-x-4">

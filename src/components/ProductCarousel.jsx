@@ -109,9 +109,9 @@ const ProductCarousel = () => {
   };
 
   return (
-    <div className="relative w-full h-[357px] sm:h-[527px] flex justify-center mt-12">
+    <div className="relative w-full h-[360px] sm:h-[527px] flex justify-center mt-12">
       <div
-        className={clsx('relative w-[25.5rem] h-64 perspective-1000', {
+        className={clsx('relative sm:w-[25.5rem] h-64 perspective-1000', {
           'w-72 h-64': isMobile,
         })}
       >
@@ -130,11 +130,11 @@ const ProductCarousel = () => {
                   ? 'opacity-100 z-20 rotate-y-0 scale-100'
                   : isPrev
                   ? isMobile
-                    ? 'opacity-50 z-10 rotate-y-45 -translate-x-[110%]'
+                    ? 'opacity-50 z-10 rotate-y-45 -translate-x-[108%]'
                     : 'z-10 rotate-y-45 -translate-x-[106%]'
                   : isNext
                   ? isMobile
-                    ? 'opacity-50 z-10 rotate-y--45 translate-x-[110%]'
+                    ? 'opacity-50 z-10 rotate-y--45 translate-x-[108%]'
                     : 'rotate-y--45 translate-x-[106%]'
                   : 'opacity-0 scale-50'
               )}
@@ -151,7 +151,7 @@ const ProductCarousel = () => {
       <button
         onClick={prevImage}
         className={clsx(
-          'absolute -left-5 sm:-left-6 top-1/2 transform -translate-y-1/2 p-2.5 sm:p-3.5 border-4 border-white rounded-full z-30',
+          'absolute -left-4 sm:-left-6 top-1/2 transform -translate-y-1/2 p-2.5 sm:p-3.5 border-4 border-white rounded-full z-30',
           currentIndex === 0
             ? 'bg-white text-black border-4 border-gray-200'
             : 'bg-primary text-white/90'
@@ -163,7 +163,7 @@ const ProductCarousel = () => {
       <button
         onClick={nextImage}
         className={clsx(
-          'absolute -right-5 sm:-right-6 top-1/2 transform -translate-y-1/2 p-2.5 sm:p-3.5  rounded-full z-30',
+          'absolute -right-4 sm:-right-6 top-1/2 transform -translate-y-1/2 p-2.5 sm:p-3.5  rounded-full z-30',
           currentIndex === data.length - 1
             ? 'bg-white text-black border-4 border-gray-200'
             : 'bg-primary text-white/90 border-4 border-white'

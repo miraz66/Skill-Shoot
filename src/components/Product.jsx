@@ -19,12 +19,12 @@ export default function Product() {
 
         <div>
           <img
-            className="absolute top-48 left-36"
+            className="absolute w-10 sm:w-full top-8 left-6 sm:top-48 sm:left-36"
             src={Group_575}
             alt="group-575"
           />
           <img
-            className="absolute top-36 right-36"
+            className="absolute w-5 sm:w-full top-16 right-8 sm:top-36 sm:right-36"
             src={Group_577}
             alt="group-577"
           />

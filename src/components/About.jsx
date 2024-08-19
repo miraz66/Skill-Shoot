@@ -1,41 +1,41 @@
-import pexels_max_fischer from '../assets/pexels-max-fischer-5212321-removebg-preview (1) 1.png';
-import Vector_1 from '../assets/Vector 1.png';
-import user_icon from '../assets/bx-user (1) 1.svg';
-import play_circle_icon from '../assets/bx-play-circle (1) 1.svg';
-import user_check_icon from '../assets/bx-user-check 1.svg';
-import video_recording_icon from '../assets/bx-video-recording .svg';
-import Group_15 from '../assets/Group 15.svg';
-import Group_24 from '../assets/Group 24.svg';
-import Group_25 from '../assets/Group 25.svg';
-import unsplash_WNoLnJo from '../assets/unsplash_WNoLnJo7tS8.png';
+import pexelsMaxFischer from '../assets/pexels-max-fischer.png';
+import Vector1 from '../assets/Vector1.png';
+import userIcon from '../assets/bx-play-circle.svg';
+import playCircleIcon from '../assets/bx-play-circle.svg';
+import userCheckIcon from '../assets/bx-user-check.svg';
+import videoRecordingIcon from '../assets/bx-video-recording.svg';
+import Group15 from '../assets/Group15.svg';
+import Group24 from '../assets/Group24.svg';
+import Group25 from '../assets/Group25.svg';
+import unsplashWNoLnJo from '../assets/unsplash_WNoLnJo.png';
 
 export default function About() {
   return (
     <div className="max-w-7xl mx-auto px-8 lg:px-10 my-20">
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-20">
         <div className="relative bg-[url('./assets/Rectangle.svg')] bg-no-repeat bg-bottom hidden sm:block">
-          <img className="mx-auto" src={pexels_max_fischer} alt="man image" />
+          <img className="mx-auto" src={pexelsMaxFischer} alt="man image" />
           <div>
             <img
               className="absolute top-36 right-24"
-              src={Group_25}
+              src={Group25}
               alt="group-image"
             />
             <img
               className="absolute top-24 left-24"
-              src={Group_15}
+              src={Group15}
               alt="group-image"
             />
             <img
               className="absolute left-14 bottom-48"
-              src={Group_24}
+              src={Group24}
               alt="group-image"
             />
           </div>
           <div className="absolute bottom-10 right-24 flex bg-white/80 px-6 py-4 gap-4 rounded-xl">
             <img
               className="sm:w-10 sm:h-10"
-              src={unsplash_WNoLnJo}
+              src={unsplashWNoLnJo}
               alt="unsplash_WNoLnJo"
             />
             <div>
@@ -57,7 +57,7 @@ export default function About() {
               Let us <span className="text-primary">Skill Shoot</span>
               <img
                 className="absolute left-16 sm:left-28 sm:right-4 sm:top-9 w-28 sm:w-48"
-                src={Vector_1}
+                src={Vector1}
                 alt="vector"
               />
             </h1>
@@ -76,7 +76,7 @@ export default function About() {
             <div className="flex items-center gap-4">
               <img
                 className="p-2 rounded-full bg-extra w-8 h-8 sm:w-10 sm:h-10"
-                src={user_icon}
+                src={userIcon}
                 alt="user icon"
               />
               <p className="text-xs sm:text-base text-current font-semibold tracking-tight">
@@ -86,7 +86,7 @@ export default function About() {
             <div className="flex items-center gap-4">
               <img
                 className="p-2 rounded-full bg-extra w-8 h-8 sm:w-10 sm:h-10"
-                src={user_check_icon}
+                src={userCheckIcon}
                 alt="user check icon"
               />
               <p className="text-xs sm:text-base text-current font-semibold">
@@ -96,7 +96,7 @@ export default function About() {
             <div className="flex items-center gap-4">
               <img
                 className="p-2 rounded-full bg-extra w-8 h-8 sm:w-10 sm:h-10"
-                src={video_recording_icon}
+                src={videoRecordingIcon}
                 alt="video recording icon"
               />
               <p className="text-xs sm:text-base text-current font-semibold">
@@ -106,7 +106,7 @@ export default function About() {
             <div className="flex items-center gap-4">
               <img
                 className="p-2 rounded-full bg-extra w-8 h-8 sm:w-10 sm:h-10"
-                src={play_circle_icon}
+                src={playCircleIcon}
                 alt="play circle icon"
               />
               <p className="text-xs sm:text-base text-current font-semibold">

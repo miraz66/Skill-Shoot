@@ -28,7 +28,7 @@ export default function ProductCard({
 
   return (
     <>
-      <div className="bg-white rounded-2xl shadow-lg h-[365px] lg:h-full">
+      <div className="bg-white rounded-2xl shadow-lg h-[380px] lg:h-full">
         <div className="w-full shadow">
           <div className="relative">
             {isPlaying ? (
@@ -64,7 +64,7 @@ export default function ProductCard({
         </div>
         <div className="p-4 sm:p-8">
           <div>
-            <h6 className="text-sm sm:text-2xl font-semibold tracking-tight">
+            <h6 className="text-xl max-md:max-w-72 sm:text-2xl font-semibold tracking-tight">
               {title}
             </h6>
             <div className="sm:pr-8 mt-4 flex gap-4 justify-between">

@@ -1,4 +1,4 @@
-import pexels_katerina_holmes from '../assets/pexels-katerina-holmes-5905497-removebg-preview 1.png';
+import pexels_katerina_holmes from '../assets/pexels-katerina-holmes.png';
 import Intersect_left from '../assets/Intersect.png';
 import Intersect_right from '../assets/Intersect (1).png';
 import Group_1 from '../assets/Group 574.png';
@@ -15,7 +15,7 @@ export default function Discount() {
             Happy <span className="text-secondary">Chinese New Year</span>, 20%
             discount for you today
           </h1>
-          <button className="mx-auto lg:mx-0 block mt-4 text-sm md:mt-10 bg-primary text-white px-4 lg:px-5 py-2 lg:py-2.5 tracking-tight rounded-sm font-semibold">
+          <button className="mx-auto lg:mx-0 block mt-4 text-sm md:mt-10 bg-primary text-white px-5 lg:px-5 py-3 lg:py-2.5 tracking-tight rounded-md font-semibold">
             Subscribe Course
           </button>
         </div>

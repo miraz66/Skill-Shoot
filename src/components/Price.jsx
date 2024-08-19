@@ -46,7 +46,7 @@ export default function Price() {
                 ))}
               </ul>
             </div>
-            <button className="bg-amber-700/30 hover:bg-secondary ease-in-out duration-200 text-sm text-white w-full py-2 rounded-full mt-6">
+            <button className="bg-[#FED1BA] hover:bg-secondary ease-in-out duration-200 text-sm text-white w-full py-2 rounded-full mt-6">
               Choose Plan
             </button>
           </div>
@@ -79,7 +79,7 @@ export default function Price() {
               </ul>
             </div>
 
-            <button className="bg-secondary hover:bg-amber-700/70 ease-in-out duration-200 text-sm text-white w-full py-2 rounded-full mt-8">
+            <button className="bg-secondary hover:bg-[#FED1BA] ease-in-out duration-200 text-sm text-white w-full py-2 rounded-full mt-8">
               Choose Plan
             </button>
           </div>
@@ -107,7 +107,7 @@ export default function Price() {
                 ))}
               </ul>
             </div>
-            <button className="bg-amber-700/30 hover:bg-secondary ease-in-out duration-200 text-sm text-white w-full py-2 rounded-full mt-8">
+            <button className="bg-[#FED1BA] hover:bg-secondary ease-in-out duration-200 text-sm text-white w-full py-2 rounded-full mt-8">
               Choose Plan
             </button>
           </div>
